@@ -6,12 +6,12 @@
 
 下载所需要的类库
 ------------------
-`cd rule
+  cd rule
 
-`npm install
+  npm install
 
 启动
 ------------------
-`npm start
+  npm start
 
-http://localhost:9551
+  http://localhost:9551

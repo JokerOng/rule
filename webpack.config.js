@@ -10,11 +10,11 @@ module.exports = {
     inline: true,
     progress: true,
     contentBase: './app',
-    port: 9800
+    port: 9551
   },
   entry: [
     'webpack/hot/dev-server',
-    'webpack-dev-server/client?http://localhost:9800',
+    'webpack-dev-server/client?http://localhost:9551',
      path.resolve(__dirname, 'app/main.js')
   ],
   output: {
@@ -39,7 +39,7 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new OpenBrowserPlugin({ url: 'http://localhost:9800' }),
+    new OpenBrowserPlugin({ url: 'http://localhost:9551' }),
     new ExtractTextPlugin('/style.css')
   ]
 };

@@ -1,0 +1,17 @@
+{
+  "name": "rule",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Albert_Ong <sjzqmaker@163.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JokerOng/rule",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

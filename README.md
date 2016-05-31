@@ -12,6 +12,6 @@
 
 启动
 ------------------
-`cd rule
-
 `npm start
+
+http://localhost:9551
